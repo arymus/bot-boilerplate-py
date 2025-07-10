@@ -1,5 +1,5 @@
 # Discord.py Boilerplate Code + Tutorial
-## Table of contents
+## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Creating a Bot](#creating-a-bot)
 3. [General Information](#general-information)
@@ -97,10 +97,16 @@ Python has virtual environments, usually named venv, env, or virtualenv. These v
 `python -m venv venv # Creates a virtual environment named venv`
 
 **FOR WINDOWS**  
-`venv\Scripts\activate # Runs the activation script inside the venv`
+```bash
+# Runs the activation script inside the venv
+venv\Scripts\activate
+```
 
 **FOR LINUX/MACOS**  
-`source venv/bin/activate # Runs the activation script inside the venv`
+```bash
+# Runs the activation script inside the venv
+source venv/bin/activate
+```
 
 You can exit the virtual environment by simply writing `deactivate` in the terminal.
 
