@@ -127,6 +127,6 @@ pip freeze > requirements.txt
 Our code environment is finally set up! Now we can start writing the real code.
 
 ## Writing the code
-Inside .env, write `TOKEN=<your-token>` (replace <your-token> with your [bot token](#generating-a-token) you generated earlier)
-Navigate to our [Python file](main.py) to see the code for our robot.
+Inside .env, write `TOKEN=<your-token>` (replace <your-token> with your [bot token](#generating-a-token) you generated earlier)  
+Navigate to our [Python file](main.py) to see the code for our robot.  
 If you want to install dependencies from a project, enter a [virtual environment](#virtual-environment) and run `pip install -r requirements.txt`
