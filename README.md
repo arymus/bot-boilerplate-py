@@ -53,6 +53,7 @@ It is extremely important that no one ever knows your bot token besides yourself
 1. Go to the **Bot** section of the dashboard on the left side of the screen
 2. Find the **Token** section
 3. Hit the **Reset Token** button.
+4. While you're here, scroll down to the **Priveleged Gateway Intents** section and enable the **message content intent**
 4. Immediately copy your token. 
 5. Store your token somewhere safe (like an .env file in your project directory)
 

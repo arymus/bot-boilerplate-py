@@ -6,3 +6,6 @@
 
 # Ignore .env, which contains your token (REMEMBER NO ONE CAN KNOW YOUR TOKEN)
 .env
+
+# Ignore discord.log, which is created by the file handler to log messages
+discord.log
