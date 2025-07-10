@@ -3,12 +3,12 @@
 1. [Prerequisites](#prerequisites)
 2. [Creating a Bot](#creating-a-bot)
 3. [General Information](#general-information)
-4. [Bot Account Creation](#bot-account-creation)
+- [Bot Account Creation](#bot-account-creation)
     - [General Information Page](#about-the-general-information-page)
     - [Generating a Token](#generating-a-token)
     - [Inviting Your Bot](#inviting-your-bot)
 
-5. [Creating the Code Environment](#creating-the-code-enviroment)
+4. [Creating the Code Environment](#creating-the-code-enviroment)
 
 
 ## Prerequisites
