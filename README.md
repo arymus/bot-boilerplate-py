@@ -70,13 +70,13 @@ Your bot is now added to your server! Now that we have a bot to code for, we can
 ### Project Directory
 
 Create your project directory (<folder-name> is the name of your project)
-```
-mkdir <folder-name>`
-`cd <folder-name>`
+```bash
+mkdir <folder-name>
+cd <folder-name>
 ```
 ### Main Files
 **FOR WINDOWS** 
-```
+```bash
 # The 'echo' command outputs strings, so echo "" would output nothing since it is an empty string. Try running `echo Hello, World!" in your terminal!
 # The > operator just means to write some output to a file.
 # Since echo outputs strings, we're outputting "" to main.py, .env, and requirements.txt to create empty files. If you write to a nonexistent file, it's made for you!
@@ -87,29 +87,33 @@ echo "" > .gitignore # Optional if you're sharing code on GitHub or any other Gi
 ```
 
 **FOR LINUX/MACOS**
-```
-touch main.py .env .gitignore # Touch creates files, and can create multiple files when multiple arguments are passed to it!
+```bash
+# Touch creates files, and can create multiple files when multiple arguments are passed to it!
+touch main.py .env .gitignore
 ```
 ### Virtual Environment
 Python has virtual environments, usually named venv, env, or virtualenv. These virtual environments hold all the dependencies we need to run our bot's code!
 
 `python -m venv venv # Creates a virtual environment named venv`
 
-**FOR WINDOWS**
+**FOR WINDOWS**  
 `venv\Scripts\activate # Runs the activation script inside the venv`
 
-**FOR LINUX/MACOS**
+**FOR LINUX/MACOS**  
 `source venv/bin/activate # Runs the activation script inside the venv`
 
 You can exit the virtual environment by simply writing `deactivate` in the terminal.
 
 5. Installing dependencies
-Now that you're in a virtual environment, you have access to pip, Python's package manager which we can use to install our dependencies!
-`pip install discord.py dotenv # Installs Discord.py to interact with the Discord API, and dotenv for accessing environment variables`
+Now that you're in a virtual environment, you have access to pip, Python's package manager which we can use to install our dependencies!  
+```bash
+# Installs Discord.py to interact with the Discord API, and dotenv for accessing environment variables
+pip install discord.py dotenv
+```
 
 6. Writing requirements.txt
 In order for other people to run your code, you need a requirements.txt so people can install the dependencies you used.
-```
+```bash
 # `pip freeze` outputs all your dependencies, so we write those dependencies to requirements.txt (which is made for us if it doesn't already exist)
 pip freeze > requirements.txt
 ```
