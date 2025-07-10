@@ -1,0 +1,8 @@
+# Ignore the venv folder because dependencies install differently based on the system, so the same dependency may not work on another system
+/venv/
+
+# Ignore the __pycache__ fokder, which contains your Python file as bytecode for the Python interpreter to reduce runtime
+/__pycache__/
+
+# Ignore .env, which contains your token (REMEMBER NO ONE CAN KNOW YOUR TOKEN)
+.env
